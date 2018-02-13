@@ -20,7 +20,7 @@
   </head>
   <body>
     <div class="wrapper">
-      <section class="day6">
+      <section class="day19">
         <div class="hamburger__container">
           <div class="hamburger">
             <div class="hamburger__item"></div>
@@ -64,19 +64,35 @@
               </ul>
             </nav>
           </div>
-        </div><a class="next-page" href="day7.html">
-          <div class="fa fa-chevron-right"></div></a><a class="prev-page" href="day5.html">
+        </div><a class="next-page" href="day20.html">
+          <div class="fa fa-chevron-right"></div></a><a class="prev-page" href="day18.html">
           <div class="fa fa-chevron-left"></div></a>
         <div class="container">
-          <h4 class="section__title">Day 6 - Ajax Type Ahead</h4>
+          <h4 class="section__title">Day 19 - Unreal Webcam Fun</h4>
           <div class="day__content">
-            <form class="search-form">
-              <input class="search" type="text" placeholder="City or State">
-              <ul class="suggestions">
-                <li>Filter for a city</li>
-                <li>or a state</li>
-              </ul>
-            </form>
+            <div class="photobooth">
+              <div class="controls">
+                <button onclick="takePhoto()">Take Photo</button>
+                <div class="rgb">
+                  <label for="rmin">Red Min:</label>
+                  <input type="range" min="0" max="255" name="rmin">
+                  <label for="rmax">Red Max:</label>
+                  <input type="range" min="0" max="255" name="rmax"><br>
+                  <label for="gmin">Green Min:</label>
+                  <input type="range" min="0" max="255" name="gmin">
+                  <label for="gmax">Green Max:</label>
+                  <input type="range" min="0" max="255" name="gmax"><br>
+                  <label for="bmin">Blue Min:</label>
+                  <input type="range" min="0" max="255" name="bmin">
+                  <label for="bmax">Blue Max:</label>
+                  <input type="range" min="0" max="255" name="bmax">
+                </div>
+              </div>
+              <canvas class="photo"></canvas>
+              <video class="player"></video>
+              <div class="strip"></div>
+            </div>
+            <audio class="snap" src="http://wesbos.com/demos/photobooth/snap.mp3" hidden=""></audio>
           </div>
         </div>
       </section>

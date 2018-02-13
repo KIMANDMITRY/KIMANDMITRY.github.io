@@ -20,7 +20,7 @@
   </head>
   <body>
     <div class="wrapper">
-      <section class="day6">
+      <section class="section day11">
         <div class="hamburger__container">
           <div class="hamburger">
             <div class="hamburger__item"></div>
@@ -64,19 +64,25 @@
               </ul>
             </nav>
           </div>
-        </div><a class="next-page" href="day7.html">
-          <div class="fa fa-chevron-right"></div></a><a class="prev-page" href="day5.html">
+        </div><a class="next-page" href="day12.html">
+          <div class="fa fa-chevron-right"></div></a><a class="prev-page" href="day10.html">
           <div class="fa fa-chevron-left"></div></a>
         <div class="container">
-          <h4 class="section__title">Day 6 - Ajax Type Ahead</h4>
-          <div class="day__content">
-            <form class="search-form">
-              <input class="search" type="text" placeholder="City or State">
-              <ul class="suggestions">
-                <li>Filter for a city</li>
-                <li>or a state</li>
-              </ul>
-            </form>
+          <h4 class="section__title">Day 11 - Custom HTML5 Video Player</h4>
+          <div class="section__content">
+            <div class="player">
+              <video class="player__video viewer" src="https://player.vimeo.com/external/194837908.sd.mp4?s=c350076905b78c67f74d7ee39fdb4fef01d12420&amp;profile_id=164"></video>
+              <div class="player__controls">
+                <div class="progress">
+                  <div class="progress__filled"></div>
+                </div>
+                <button class="player__button toggle" title="Toggle Play">►wew3rw3</button>
+                <input class="player__slider" type="range" name="volume" min="0" max="1" step="0.05" value="1">
+                <input class="player__slider" type="range" name="playbackRate" min="0.5" max="2" step="0.1" value="1">
+                <button class="player__button" data-skip="-10">« 10s</button>
+                <button class="player__button" data-skip="25">25s »</button>
+              </div>
+            </div>
           </div>
         </div>
       </section>

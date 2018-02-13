@@ -20,7 +20,7 @@
   </head>
   <body>
     <div class="wrapper">
-      <section class="day6">
+      <section class="day23">
         <div class="hamburger__container">
           <div class="hamburger">
             <div class="hamburger__item"></div>
@@ -64,19 +64,25 @@
               </ul>
             </nav>
           </div>
-        </div><a class="next-page" href="day7.html">
-          <div class="fa fa-chevron-right"></div></a><a class="prev-page" href="day5.html">
+        </div><a class="next-page" href="day24.html">
+          <div class="fa fa-chevron-right"></div></a><a class="prev-page" href="day22.html">
           <div class="fa fa-chevron-left"></div></a>
         <div class="container">
-          <h4 class="section__title">Day 6 - Ajax Type Ahead</h4>
+          <h4 class="section__title">Day 23 - Speech Synthesis</h4>
           <div class="day__content">
-            <form class="search-form">
-              <input class="search" type="text" placeholder="City or State">
-              <ul class="suggestions">
-                <li>Filter for a city</li>
-                <li>or a state</li>
-              </ul>
-            </form>
+            <div class="voiceinator">
+              <h1>The Voiceinator 5000</h1>
+              <select id="voices" name="voice">
+                <option value="">Select A Voice</option>
+              </select>
+              <label for="rate">Rate:</label>
+              <input name="rate" type="range" min="0" max="3" value="1" step="0.1">
+              <label for="pitch">Pitch:</label>
+              <input name="pitch" type="range" min="0" max="2" step="0.1">
+              <textarea name="text">Hello! I love JavaScript 👍</textarea>
+              <button id="stop">Stop!</button>
+              <button id="speak">Speak</button>
+            </div>
           </div>
         </div>
       </section>
