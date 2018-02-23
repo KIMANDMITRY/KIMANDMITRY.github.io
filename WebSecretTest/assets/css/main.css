@@ -281,7 +281,8 @@ a {
   appearance: none;
   position: absolute;
   left: 0.9375rem;
-  top: 0.1875rem; }
+  top: 0.1875rem; 
+  visibility: hidden;}
 
 .filter-item input[type=checkbox]:checked + label:after {
   font-family: 'FontAwesome';
