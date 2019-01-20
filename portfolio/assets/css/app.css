@@ -1264,6 +1264,10 @@ button {
 .js-circle {
   stroke-dasharray: 570; }
 
+  .angular-circle {
+    stroke-dasharray: 470;
+  }
+
 .sql-circle {
   stroke-dasharray: 420; }
 
@@ -1277,7 +1281,7 @@ button {
   stroke-dasharray: 490; }
 
 .git-circle {
-  stroke-dasharray: 500; }
+  stroke-dasharray: 550; }
 
 .gulp-circle {
   stroke-dasharray: 550; }
