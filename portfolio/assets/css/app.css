@@ -605,6 +605,9 @@ button {
   font-size: 1rem; }
 
 .flip-container {
+  position: absolute;
+  transform: translateY(-50%);
+  top: 50%;
   -webkit-perspective: 62.5rem;
           perspective: 62.5rem; }
 
@@ -2361,7 +2364,6 @@ button {
 
 .welcome-bg {
   min-height: 100%;
-  position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
