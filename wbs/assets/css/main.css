@@ -862,6 +862,8 @@ a:hover {
               transform: scale(1.1); }
 
 .projects-preview__link {
+  border: 1px solid #ebeded;
+  border-radius: 5px;
   position: absolute;
   top: 0;
   left: 0;
@@ -877,7 +879,7 @@ a:hover {
 .projects-preview-item__name {
   font-size: 1.5rem;
   font-family: "GothamProBlack", sans-serif;
-  margin-bottom: 1.25rem;
+  margin-bottom: 0.3rem;
   width: 100%;
   pointer-events: none; }
   @media (max-width: 37.5rem) {
@@ -887,7 +889,7 @@ a:hover {
 
 .projects-preview-item__disc {
   position: absolute;
-  top: 1.5625rem;
+  top: 0.8rem;
   left: 1.5625rem;
   z-index: 50;
   pointer-events: none; }
@@ -916,7 +918,7 @@ a:hover {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   position: absolute;
-  bottom: 1.5625rem;
+  bottom: 0.2rem;
   left: 0.9375rem;
   z-index: 50;
   pointer-events: none; }
@@ -928,14 +930,15 @@ a:hover {
 .project-technologies__item {
   margin-right: 0.625rem;
   margin-bottom: 0.625rem;
-  padding: 0.625rem 0.9375rem;
+  padding: 0.3rem 0.5rem;
+  border: 1px solid #ebeded;
   border-radius: 0.3125rem;
   text-transform: uppercase;
-  font-size: 1rem;
+  font-size: 0.8rem;
   font-weight: bold; }
   .project-technologies__item_light {
     color: #000;
-    background-color: #f9f9fa; }
+    background-color: #ebeded; }
   .project-technologies__item_dark {
     color: #fff;
     background-color: rgba(0, 0, 0, 0.2); }
